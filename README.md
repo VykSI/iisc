@@ -44,6 +44,9 @@ Your server must be running on localhost:5000
 cd frontend
 npm init
 npm install
+npm install axios
+npm install file-saver
+npm install xlsx
 npm run serve -- --port 8000
 ```
 
