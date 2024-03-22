@@ -57,3 +57,5 @@ pip install -r requirements.txt
 python server.py
 ```
 
+Should run the server on localhost:5000
+
