@@ -3,10 +3,10 @@ import cv2
 import numpy as np
 from collections import Counter
 import base64
-from flask_cors import CORS
+from flask_cors import CORS,cross_origin
 
 app = Flask(__name__)
-cors = CORS(app, resources={r"/*": {"origins": "http://localhost:8000"}})
+cors = CORS(app)
 
 # Load YOLO model and class labels
 net = cv2.dnn.readNet("yolov3.weights", "yolov3.cfg")
@@ -71,6 +71,7 @@ def detect_and_classify_vehicle(image):
     return image
 
 @app.route('/classify', methods=['POST'])
+@cross_origin()
 def classify_vehicle():
     # Check if an image is present in the request
     if 'image' not in request.files:
@@ -96,4 +97,4 @@ def classify_vehicle():
     return jsonify({'image': base64_image, 'count': count}), 200
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,host='0.0.0.0',port=5000)
