@@ -11,8 +11,6 @@ Download Yolov3.weights : https://github.com/patrick013/Object-Detection---Yolov
 Copy the file to backend folder
 
 
-Open 2 terminals
-
 ## Docker-compose Method:
 
 open a terminal at current dir:
@@ -23,6 +21,8 @@ docker-compose up -d
 This should run your web app and you will be able to access frontend on localhost:8000 and backend on localhost:5000
 
 ## Docker Method:
+
+Open 2 terminals
 
 ### frontend
 
@@ -50,7 +50,9 @@ docker run -p 5000:5000 flask-app
 ```
 Your server must be running on localhost:5000
 
-### Alternative Method:
+### No Docker Method:
+
+Open 2 terminals
 
 ### Frontend
 
