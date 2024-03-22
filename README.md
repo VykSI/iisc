@@ -1,4 +1,4 @@
-# IISC assignment
+# IISC Assignment
 
 demo of website is available in demo folder
 
