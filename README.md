@@ -54,7 +54,7 @@ docker run -p 5000:5000 flask-app
 ```
 Your server must be running on localhost:5000
 
-### No Docker Method:
+## No Docker Method:
 
 Open 2 terminals
 
