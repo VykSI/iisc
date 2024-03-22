@@ -13,6 +13,15 @@ Copy the file to backend folder
 
 Open 2 terminals
 
+## Docker-compose Method:
+
+open a terminal at current dir:
+```bash
+docker-compose up -d
+```
+
+This should run your web app and you will be able to access frontend on localhost:8000 and backend on localhost:5000
+
 ## Docker Method:
 
 ### frontend
