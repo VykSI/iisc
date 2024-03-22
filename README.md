@@ -2,6 +2,8 @@
 
 demo of website is available in demo folder
 
+if in case yolov3.weights isnt working do this:
+
 
 Download Yolov3.weights : https://github.com/patrick013/Object-Detection---Yolov3/raw/master/model/yolov3.weights?download=
 
