@@ -7,7 +7,6 @@ from flask_cors import CORS,cross_origin
 
 app = Flask(__name__)
 cors = CORS(app)
-
 # Load YOLO model and class labels
 net = cv2.dnn.readNet("yolov3.weights", "yolov3.cfg")
 classes = []
