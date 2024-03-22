@@ -1,5 +1,8 @@
 # iisc assignment
 
+demo of website is available in demo folder
+
+
 Download Yolov3.weights : https://github.com/patrick013/Object-Detection---Yolov3/raw/master/model/yolov3.weights?download=
 
 
