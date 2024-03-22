@@ -1,4 +1,4 @@
-# iisc
+# iisc assignment
 
 Download Yolov3.weights : https://github.com/patrick013/Object-Detection---Yolov3/raw/master/model/yolov3.weights?download=
 
