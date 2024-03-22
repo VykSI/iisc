@@ -2,6 +2,10 @@
 
 demo of website is available in demo folder
 
+```bash
+git clone https://github.com/VykSI/iisc.git
+```
+
 Place yolov3.weights in backend folder after downloading from below link:
 
 
@@ -15,7 +19,7 @@ Copy the file to backend folder
 
 open a terminal at current dir:
 ```bash
-docker-compose up -d
+docker-compose up --build
 ```
 
 This should run your web app and you will be able to access frontend on localhost:8000 and backend on localhost:5000
