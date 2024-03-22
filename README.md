@@ -4,6 +4,8 @@ Download Yolov3.weights : https://github.com/patrick013/Object-Detection---Yolov
 
 
 Copy the file to backend folder
+
+
 Open 2 terminals
 
 ## Docker Method:
